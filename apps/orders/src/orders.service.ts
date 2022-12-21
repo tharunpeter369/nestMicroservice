@@ -14,8 +14,6 @@ export class OrdersService {
   }
 
   async getOrder() {
-    console.log('heloooooooooooooooooooooooooooooooooooooooooooo');
-    
     return this.ordersRepository.find({});
   }
 }
